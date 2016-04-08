@@ -1,4 +1,3 @@
-
 <?php // vim:ts=4:sw=4:et:fdm=marker
 
 namespace atk4\dsql;
@@ -6,7 +5,7 @@ namespace atk4\dsql;
 /**
  * Perform a schema alteration query operation on SQL server (such as select, insert, delete, etc)
  */
-class Query extends Expression
+class Migration extends Expression
 {
 
     /**
